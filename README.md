@@ -2,7 +2,7 @@
 
 **This is a simple weather app that uses the OpenWeatherAPI to get weather data for a given city**
 
-*Getting Started*
+**Getting Started**
 
 To use this app, you will need to obtain an API key from OpenWeatherAPI. Once you have your API key, replace apiKey variable value with your own key.
 
@@ -20,4 +20,5 @@ To use this app, you will need to obtain an API key from OpenWeatherAPI. Once yo
 4. OpenWeatherAPI
 
 **Author**
-*Bonny Iype*
+
+**Bonny Iype**
