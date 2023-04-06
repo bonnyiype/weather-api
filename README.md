@@ -14,10 +14,10 @@ To use this app, you will need to obtain an API key from OpenWeatherAPI. Once yo
 
 
 **Technologies Used**
-•	HTML
-•	CSS
-•	JavaScript
-•	OpenWeatherAPI
+1. HTML
+2. CSS
+3. JavaScript
+4. OpenWeatherAPI
 
 **Author**
 *Bonny Iype*
