@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Updates</h1>
+        <div class="input-container">
+            <input type="text" id="textInput" placeholder="Enter city name here" />
+            <button id="submitButton">Get Weather</button>
+        </div>
+    </header>
+    <main>
+        <div class="weather-container">
+            <h2 id="cityName"></h2>
+            <h3 id="temp"></h3>
+        </div>
+        <div class="image-container">
+            <img src="" alt="weather icon" id="weatherIcon">
+        </div>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="index.js"></script>
+</body>
+</html>
