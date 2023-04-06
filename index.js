@@ -4,7 +4,6 @@ const cityName = document.getElementById('cityName');
 const temp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weatherIcon');
 const apiKey = '283bbfafc7914369aac221608230504';
-const textDiv = document.querySelector('.text');
 
 //pulls weather data and logs to the console
 const getWeather = async () => {
@@ -29,7 +28,6 @@ button.addEventListener('click', async () => {
     temp.textContent = `The temperature is ${temperature} degrees Celsius.`;
     const weatherIconUrl = `http:${weatherData.current.condition.icon}`;
     weatherIcon.setAttribute('src', weatherIconUrl);
-    weatherIcon.setAttribute('alt', weatherData.current.condition.text);
   } catch(error) {
     console.error(error);
   }
